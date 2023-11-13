@@ -4,47 +4,51 @@
     <link rel="stylesheet" type="text/css" href="Styles.css">
     <meta charset="UTF-8">
     <title>Gambit Gallery</title>
-    <style>
-        .navbar {
-            overflow: hidden;
-            background-color: #333;
-        }
-
-        .navbar a {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        .navbar a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-    </style>
 </head>
 <body>
-<div class="navbar">
-    <a href="index.html" target="_blank">
-        Inicio
-    </a>
-    <a href="bdd.html" target="_blank">
-        Base de Datos
-    </a>
-    <a href="aboutus.html" target="_blank">
-        Acerca de Nosotros
-    </a>
-    <a href="Soporte.html" target="_blank">
-        Soporte
-    </a>
-</div>
+<nav>
+    <div class="navbar">
+
+        <a href="index.html" target="_self">
+            <img src="./img/logo/logo-GG-sin%20fondo.png" alt="Logo">
+        </a>
+        <a href="index.html" target="_self">
+            Inicio
+        </a>
+        <a href="bdd.html" target="_self">
+            Base de Datos
+        </a>
+        <a href="aboutus.html" target="_self">
+            Acerca de Nosotros
+        </a>
+        <a href="Soporte.html" target="_self">
+            Soporte
+        </a>
+        <a href="login.html" target="_self">
+            Iniciar Sesión
+        </a>
+    </div>
+</nav>
+<h2>
+    ¿Qué es GambitGallery?
+</h2>
+<p>
+    GambitGallery es una base de datos en línea dedicada al ajedrez en México.
+    Ofrecemos a los usuarios la posibilidad de consultar partidas de ajedrez y analizar estadísticas de jugadores
+    registrados en el sistema.
+    Nuestra plataforma es un recurso valioso para cualquier persona interesada en el ajedrez,
+    desde principiantes hasta jugadores avanzados. Con Gambit Gallery, puedes seguir el progreso de tus jugadores
+    favoritos,
+    aprender de sus partidas y mejorar tu propio juego.
+</p>
+<!--
 <script>
+    falta instalación del tablero
     import {Chessground} from 'chessground';
 
     const config = {};
     const ground = Chessground(document.body, config);
 </script>
+-->
 </body>
 </html>
