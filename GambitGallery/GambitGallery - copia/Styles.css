@@ -25,7 +25,7 @@ body {
     color: black;
     height: 60px;
 }
-.navbar_img {
+.navbar img {
     height: 30px; /* Esto hará que la imagen tenga la misma altura que tu navbar */
     width: auto; /* Esto mantendrá las proporciones de la imagen */
     vertical-align: middle; /* Alinea verticalmente el logo en el centro */
