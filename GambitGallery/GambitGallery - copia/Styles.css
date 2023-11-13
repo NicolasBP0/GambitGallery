@@ -24,6 +24,7 @@ body {
 .navbar img {
     height: 50px; /* Ajusta este valor según el tamaño que desees para el logo */
     vertical-align: middle; /* Alinea verticalmente el logo en el centro */
+    width: auto;
 }
 .gradient-custom {
     /* fallback for old browsers */
