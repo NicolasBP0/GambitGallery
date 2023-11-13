@@ -9,6 +9,8 @@ body {
     overflow: hidden;
     color: white;
     height: 60px; /* Ajusta esto al tamaño de tu navbar */
+    display: flex; /* Esto hará que los elementos de la navbar se alineen en una fila */
+    align-items: center; /* Esto centrará los elementos verticalmente */
 }
 .navbar a {
     float: left;
@@ -23,7 +25,7 @@ body {
     color: black;
     height: 60px;
 }
-.navbar img {
+.navbar_img {
     height: 30px; /* Esto hará que la imagen tenga la misma altura que tu navbar */
     width: auto; /* Esto mantendrá las proporciones de la imagen */
     vertical-align: middle; /* Alinea verticalmente el logo en el centro */
