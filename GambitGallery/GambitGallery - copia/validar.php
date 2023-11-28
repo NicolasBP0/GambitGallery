@@ -19,8 +19,8 @@ $usuario = $_POST['username'];
 $password = $_POST['password'];
 
 // Consultar la base de datos para el usuario
-$sql = "SELECT id, username, email, password FROM usuarios WHERE usuario = '$usuario'";
-$sql2 = "SELECT id, username, email, password FROM usuarios WHERE clave_acceso = '$password'";
+$sql = "SELECT id, username, email, password FROM users WHERE usuario = '$usuario'";
+$sql2 = "SELECT id, username, email, password FROM users WHERE clave_acceso = '$password'";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // Usuario encontrado, verificar la contraseña
